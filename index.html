@@ -1,10 +1,37 @@
 <!doctype html>
 <html lang="ko">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Simple Web Demo"><title>Simple Web Demo</title><link rel="stylesheet" href="style.css">
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="김의현 - Creative Developer Portfolio"><title>김의현 — Creative Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
-<body><main class="hero"><nav class="nav"><strong>WEB.DEV</strong><span>Simple Web Demo</span></nav>
-<section class="content"><p class="eyebrow">HELLO, WORLD 👋</p><h1>작지만 제대로 만든<br><span>웹사이트 샘플</span></h1>
-<p class="description">HTML, CSS, JavaScript만으로 만든 깔끔한 반응형 랜딩페이지입니다.</p><button id="helloButton">눌러보기</button><p id="message" class="message" aria-live="polite"></p></section>
-<footer>© 2026 Simple Web Demo</footer></main><script src="script.js"></script></body></html>
+<body>
+<div class="noise"></div><div class="cursor-glow"></div>
+<header class="site-header"><a class="logo" href="#">K<span>.</span></a><nav><a href="#about">About</a><a href="#work">Work</a><a href="#skills">Skills</a><a href="#contact">Contact</a></nav><button class="menu" aria-label="메뉴">☰</button></header>
+<main>
+<section class="hero" id="home">
+<div class="orb orb-a"></div><div class="orb orb-b"></div><div class="grid"></div>
+<div class="hero-inner">
+<div class="eyebrow"><i></i> AVAILABLE FOR NEW PROJECTS</div>
+<h1>아이디어를<br><em>경험</em>으로 만듭니다.</h1>
+<p class="hero-copy">디자인과 개발의 경계를 넘나들며 빠르고 아름다운 디지털 경험을 만드는 Creative Developer입니다.</p>
+<div class="hero-actions"><a class="btn primary magnetic" href="#work">작업물 보기 <span>↗</span></a><a class="btn ghost magnetic" href="#contact">연락하기</a></div>
+<div class="hero-meta"><span>Based in Korea</span><span>2026 — NOW</span><span>SCROLL ↓</span></div>
+</div>
+<div class="floating-card card-one"><small>FOCUS</small><strong>Web<br>Experience</strong></div>
+<div class="floating-card card-two"><span>✦</span><strong>01</strong><small>Creative<br>Developer</small></div>
+</section>
+<section class="section about" id="about"><div class="section-label">01 / ABOUT</div><div class="about-grid"><h2>기술보다<br><span>경험을</span> 만듭니다.</h2><div><p class="lead">사용자가 “좋다”고 느끼는 순간을 설계합니다.</p><p>웹 개발부터 인터랙션, 콘텐츠 구성까지 하나의 흐름으로 연결하는 것을 좋아합니다. 새로운 기술을 빠르게 실험하고 실제로 쓸 수 있는 결과물로 만드는 데 집중합니다.</p><div class="stats"><div><b>3+</b><small>Years Experience</small></div><div><b>20+</b><small>Projects</small></div><div><b>∞</b><small>Curiosity</small></div></div></div></div></section>
+<section class="section work" id="work"><div class="section-head"><div class="section-label">02 / SELECTED WORK</div><p>아이디어에서 런칭까지.</p></div><div class="projects">
+<article class="project project-a"><div class="project-visual"><span>01</span><div class="visual-ui"><div></div><div></div><div></div></div></div><div class="project-info"><small>WEB / PRODUCT</small><h3>Nova Dashboard</h3><p>복잡한 데이터를 직관적으로 보여주는 SaaS 대시보드.</p><a href="#">VIEW PROJECT ↗</a></div></article>
+<article class="project project-b"><div class="project-visual"><span>02</span><div class="orbit"></div></div><div class="project-info"><small>BRANDING / WEB</small><h3>Mono Studio</h3><p>미니멀한 브랜드 아이덴티티와 인터랙티브 웹사이트.</p><a href="#">VIEW PROJECT ↗</a></div></article>
+<article class="project project-c"><div class="project-visual"><span>03</span><div class="type-demo">CREATE<br>MORE.</div></div><div class="project-info"><small>EXPERIMENT / JS</small><h3>Motion Lab</h3><p>JavaScript 기반 인터랙션과 마이크로 애니메이션 실험.</p><a href="#">VIEW PROJECT ↗</a></div></article>
+</div></section>
+<section class="section skills" id="skills"><div class="section-label">03 / TOOLKIT</div><div class="skill-wrap"><h2>My toolkit<span>.</span></h2><div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>GitHub</span><span>UI / UX</span><span>Responsive Web</span><span>Motion Design</span><span>Problem Solving</span></div></div></section>
+<section class="section contact" id="contact"><div class="contact-box"><div class="section-label">04 / CONTACT</div><h2>같이 재미있는 걸<br><em>만들어볼까요?</em></h2><p>새로운 프로젝트, 협업, 아이디어가 있다면 편하게 연락해주세요.</p><a class="contact-btn magnetic" href="mailto:hello@example.com">hello@example.com <span>↗</span></a></div></section>
+</main>
+<footer><span>K. / Creative Developer</span><span>© 2026</span></footer>
+<script src="script.js"></script>
+</body></html>
